@@ -18,7 +18,7 @@ def main():
 
     now = datetime.now()
 
-    print("Your name is {name}. You are {age} years old and are from {birth}. Your favorite color is {color}.".format(name=name, age=age, birth=birth, color=color))
+    print(f"Your name is {name}. You are {age} years old and are from {birth}. Your favorite color is {color}.")
     print(age_over_twenty(age))
     print("The current date is {}/{}/{}. The current time is {}:{}:{}".format(now.month, now.day, now.year, now.hour, now.minute, now.second))
 
